@@ -1,0 +1,6 @@
+---------- coverage: platform win32, python 3.10.0-final-0 -----------
+Name           Stmts   Miss  Cover
+----------------------------------
+test_year.py      53      0   100%
+----------------------------------
+TOTAL             53      0   100%
