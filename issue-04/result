@@ -1,0 +1,9 @@
+============================= test session starts =============================
+collecting ... collected 4 items
+
+test_pytest.py::test_eq PASSED                                           [ 25%]
+test_pytest.py::test_raise PASSED                                        [ 50%]
+test_pytest.py::test_in PASSED                                           [ 75%]
+test_pytest.py::test_eq2 PASSED                                          [100%]
+
+============================== 4 passed in 0.02s ==============================
