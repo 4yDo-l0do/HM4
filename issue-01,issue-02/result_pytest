@@ -1,8 +1,0 @@
-============================= test session starts =============================
-collecting ... collected 3 items
-
-morse.py::test_decode[... --- ...-SOS] PASSED                            [ 33%]
-morse.py::test_decode[.... ..-HI] PASSED                                 [ 66%]
-morse.py::test_decode[- . ... --TEST] PASSED                             [100%]
-
-============================== 3 passed in 0.02s ==============================
