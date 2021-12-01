@@ -1,7 +1,7 @@
 **Запуск**
 
-Doctest:
+**Doctest**:
 python -m doctest -v -o NORMALIZE_WHITESPACE morse.py
 
-Pytest:
+**Pytest**:
 python -m pytest morse.py
