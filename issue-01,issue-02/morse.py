@@ -82,3 +82,4 @@ if __name__ == '__main__':
     print(decoded_msg)
     assert morse_msg == encode(decoded_msg)
     doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE)
+    
