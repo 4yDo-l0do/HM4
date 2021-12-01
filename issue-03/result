@@ -1,0 +1,11 @@
+============================= test session starts =============================
+collecting ... collected 4 items
+
+one_hot_encoder.py::TestFT::test_eq PASSED                               [ 25%]
+one_hot_encoder.py::TestFT::test_eq2 PASSED                              [ 50%]
+one_hot_encoder.py::TestFT::test_in PASSED                               [ 75%]
+one_hot_encoder.py::TestFT::test_raise PASSED                            [100%]
+
+============================== 4 passed in 0.03s ==============================
+
+Process finished with exit code 0
