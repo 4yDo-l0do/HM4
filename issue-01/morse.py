@@ -1,6 +1,5 @@
 """Morse Code Translator"""
 import doctest
-import pytest
 
 
 LETTER_TO_MORSE = {
@@ -63,18 +62,6 @@ def decode(morse_message: str) -> str:
     ]
 
     return ''.join(decoded_letters)
-
-
-@pytest.mark.parametrize("test_input,expected", [
-    ('... --- ...', 'SOS'),
-    ('.... ..', 'HI'),
-    ('- . ... -', 'TEST')
-])
-def test_decode(test_input, expected):
-    """
-    Проверяет работу функции decode
-    """
-    assert decode(test_input) == expected
 
 
 if __name__ == '__main__':
