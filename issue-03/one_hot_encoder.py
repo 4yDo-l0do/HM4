@@ -56,16 +56,4 @@ def fit_transform(*args: str) -> List[Tuple[str, List[int]]]:
 
 
 if __name__ == '__main__':
-    from pprint import pprint
-
-    cities = ['Moscow', 'New York', 'Moscow', 'London']
-    exp_transformed_cities = [
-        ('Moscow', [0, 0, 1]),
-        ('New York', [0, 1, 0]),
-        ('Moscow', [0, 0, 1]),
-        ('London', [1, 0, 0]),
-    ]
-    transformed_cities = fit_transform(cities)
-    pprint(transformed_cities)
-    assert transformed_cities == exp_transformed_cities
     unittest.main()
