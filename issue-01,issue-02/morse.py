@@ -2,6 +2,7 @@
 import doctest
 import pytest
 
+
 LETTER_TO_MORSE = {
     'A': '.-', 'B': '-...', 'C': '-.-.',
     'D': '-..', 'E': '.', 'F': '..-.',
